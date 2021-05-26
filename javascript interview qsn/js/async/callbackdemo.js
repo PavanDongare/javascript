@@ -1,3 +1,4 @@
+// callback hell example 
 function one_sec(p){
     setTimeout(() => {
         console.log('1 sec function')
