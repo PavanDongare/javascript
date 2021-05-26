@@ -29,12 +29,6 @@ threeSec = function () {
 
 funcRefs = [oneSec,twoSec,threeSec];
 
-const startPromise = function(){ Promise.resolve(null); }
-
-let acc = (acc,val)=>{
-    val.then()
-}
-
 
 let a = funcRefs.reduce((result,promiseFn)=>{
     return result.then(()=>{
