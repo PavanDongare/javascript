@@ -1,3 +1,5 @@
+// run 3 seq fun and then 3 concurrent functions
+
 oneSec = function () {
     return new Promise((res, rej) => {
         setTimeout(() => {

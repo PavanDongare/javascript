@@ -35,10 +35,3 @@ threeSec().then(() => {
         oneSec();
     })
 })
-
-
-// inform when all are done
-Promise.all([threeSec(),twoSec(),oneSec()])
-.then((val)=>{ console.log('all done',val)})
-.catch((e)=>{console.log('one fail',e)});
-
